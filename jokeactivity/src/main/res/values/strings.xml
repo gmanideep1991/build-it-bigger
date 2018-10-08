@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">JokeActivity</string>
+    <string name="joke">JOKE</string>
+    <string name="jokeFragment">JOKE_FRAGMENT</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>
