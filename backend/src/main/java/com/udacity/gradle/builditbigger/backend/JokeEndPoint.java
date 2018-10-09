@@ -14,7 +14,7 @@ import com.google.api.server.spi.config.ApiNamespace;
 )
 public class JokeEndPoint {
     @ApiMethod(name = "sayJoke")
-    public JokeBean sayJoke(JokeBean jokeBean){
-        return jokeBean;
+    public JokeBean sayJoke(){
+        return  new JokeBean();
     }
 }

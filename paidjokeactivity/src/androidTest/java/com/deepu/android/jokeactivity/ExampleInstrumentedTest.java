@@ -1,4 +1,4 @@
-package com.deepu.android.paidjokeactivity;
+package com.deepu.android.jokeactivity;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -9,13 +9,13 @@ import org.junit.runner.RunWith;
 
 import java.util.concurrent.ExecutionException;
 
-import static org.junit.Assert.assertTrue;
+import static junit.framework.Assert.assertNotNull;
 
 @RunWith(AndroidJUnit4.class)
 public class JokeEndPointsAsyncTaskTest {
 
     @Test
-    public void testNonEmptyString() {
+    public void testNonNull() {
         JokeEndPointsAsyncTask endpointsAsyncTask = new JokeEndPointsAsyncTask();
 
         endpointsAsyncTask.execute(new Pair<>(InstrumentationRegistry.getTargetContext(), "test"));
@@ -29,7 +29,7 @@ public class JokeEndPointsAsyncTaskTest {
             e.printStackTrace();
         }
 
-        assertTrue(result.length() > 0);
+        assertNotNull(result);
     }
 
 }
